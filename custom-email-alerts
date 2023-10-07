@@ -3,12 +3,6 @@
 # Description:
 # 
 # This integration allows the user to send fully customizable email alerts
-#  this is a simple implementation for which the message is customized in
-#  the generate_msg() function. A full html body is accepted if necessary.
-#  Another assumption is that the mail server does not require authentication
-#  the script can be easily adapted to use authentication or a local postfix
-#  proxy may be used as explained in steps 1-6 of the following guide:
-#  https://documentation.wazuh.com/4.2/user-manual/manager/manual-email-report/smtp-authentication.html
 
 import json
 import sys
